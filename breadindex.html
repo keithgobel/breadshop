@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <title>The Bread Shop</title>
+</head>
+<body>
+    <form method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>
+                        <label for="type"><b>Type</b></label>
+                    </h4>
+                </div>
+                <div class="col-sm-3">
+                    <h4>
+                        <b>What size loaf?</b>
+                    </h4>
+                </div>
+                <div class="col-sm-4">
+                    <h4>
+                        <label for="sliced">Sliced?</label>
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <select class="form-control" id="type" name="breadType">
+                        <option>White Bread</option>
+                        <option>Brown Bread</option>
+                        <option>Banana Bread</option>
+                        <option>Pumpkin Bread</option>
+                        <option>Brioche</option>
+                        <option>Cornbread</option>
+                        <option>Crisp Bread</option>
+                        <option>Crumpet</option>
+                        <option>Multigrain</option>
+                        <option>Texas Toast</option>
+                    </select>
+                </div>
+
+
+                <div class="col-sm-3 col-sm-offset-1">
+                    <input type="radio" id="onePound" name="size" /><label for="onePound"> 1 lb</label> <br />
+                    <input type="radio" id="twoPound" name="size" /><label for="twoPound"> 2 lb</label>
+                </div>
+            
+                <div class="col-sm-3" >
+        
+                          
+                <input type="checkbox" name="sliced" id="sliced" />
+                </div>
+            </div>
+         </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-7">
+                <input type="submit" value="Submit" class="btn" />
+            </div>
+        </div>
+
+
+    </form>
+</body>
+</html>
